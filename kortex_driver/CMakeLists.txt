@@ -33,7 +33,7 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux" AND CMAKE_SYSTEM_PROCESSOR STREQUAL "x
   FetchContent_Declare(
     kinova_binary_api
     URL https://artifactory.kinovaapps.com:443/artifactory/generic-public/kortex/API/2.6.0/linux_x86_64_gcc_5.4.zip
-    URL_HASH MD5=9d787a0f5405f02031db1e01dffa408f
+    URL_HASH MD5=a990f7941ecd9e3d1d986b1aa461cc81
   )
 else()
   # TODO(future) to support ARM or other builds logic could go here to fetch the precompiled libKortexApiCpp.a
